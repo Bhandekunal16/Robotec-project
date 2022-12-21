@@ -1,0 +1,417 @@
+/* main body */
+body{
+    background-color: rgb(172, 171, 171);
+    /* background-color: rgb(87, 85, 85); */
+    /* font-family:'Ubuntu', sans-serif !important; */
+    font-family:'inherit', sans-serif !important;
+    /* font-family: "Sofia", sans-serif !important; */
+}
+
+/* title  */
+.sec_line{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding-top: 3%;
+    border-radius: 8px 8px;
+}
+#nav_bar_inp{
+    width: 850px;
+    height: 45px;
+    border-radius: 50px 50px;
+    border-color: aliceblue;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#nav_bar_btn{
+    height: 50px;   
+    width: 45px;
+    border-radius: 100px 100px;
+    margin-left: 2%;
+    border-color: aliceblue;
+}
+
+.title{
+    color: rgb(80, 74, 74);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo_title{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -2%;
+    margin-left: -85%;
+    font-family: "Sofia", sans-serif !important;
+    font-size: 30px;
+
+}
+/* nev-bar */
+.nev-bar{
+    border-color: black;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -3%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: 75%;
+    margin-top: 5px;
+    font-family: "Sofia", sans-serif !important;
+  }    
+li {
+    float: left;
+  }
+      
+li a {
+    display: block;
+    color: black;
+    /* color: aliceblue; */
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: transparent;
+}
+/* first_row */
+.first_row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+/* circumfarance calculater */
+.calculater_1 {
+    /* margin-left: 25%; */
+    width: 650px;
+    height: 300px;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+}
+#circle{
+    margin-left: 2%;
+    color: rgb(80, 74, 74)
+}
+#count{
+    margin-left: 2%;
+    color: rgb(80, 74, 74);
+    font-weight: 200;
+}
+.birthday{
+    margin-left: 2%;
+    color: rgb(80, 74, 74);
+    font-weight: 200;
+}
+#bmi{
+    margin-left: 2%;
+    color: rgb(80, 74, 74);
+    font-weight: 200;
+}
+#percent{
+    margin-left: 2%;
+    color: rgb(80, 74, 74);
+    font-weight: 200;
+}
+#bmr{
+    margin-left: 2%;
+    color: rgb(80, 74, 74);
+    font-weight: 200;
+}
+.button_2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 7%;
+} 
+#radius{
+    margin-left: 8%;
+    border-color: aliceblue;
+}
+.calculater_1_h3{
+    margin-left: 8%;
+}
+#circumfarance{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+}
+
+/* even-odd number identifier */
+.calculater_3
+    {
+    /* margin-left: 25%; */
+    width: 650px;
+    height: 300px;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+
+    }
+#even_odd{
+    width: 400px;
+    height: 35px;
+    margin-top: 2%;
+    margin-left: 8%;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+}
+#firstn{
+    margin-left: 3%;
+    border-color: aliceblue;
+}
+#lastn{
+    border-color: aliceblue;
+}
+#age{
+    border-color: aliceblue;
+}
+#num{
+    width: 100px;
+    margin-bottom: 2px;
+    border-radius: 10px 10px;
+    margin-left: 8%;
+    border-color: aliceblue;
+}
+.calculater_3_h3{
+    margin-left: 8%;
+}
+
+
+.material-symbols-outlined{
+    margin-left: 2%;
+}
+
+/* age calculater */
+.calculater_4
+{
+    margin-top: 5%;
+    width: 650px;
+    height: 300px;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+
+}
+.calculater_4_h3{
+    margin-left: 8%;
+}
+#wishme{
+    width: 400px;
+    height: 35px;
+    margin-top: 2%;
+    margin-left: 8%;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+}
+#presentyear{
+    margin-left: 8%;
+    border-color: aliceblue;
+}
+#birthyear{
+    border-color: aliceblue;
+}
+
+/* BMI calculater */
+.calculater_5
+    {
+    margin-top: 5%;
+    width: 650px;
+    height: 300px;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+
+    }
+#BMI{
+    width: 400px;
+    height: 35px;
+    margin-top: 2%;
+    margin-left: 8%;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+    }
+#height{
+    margin-left: 8%;
+    border-color: aliceblue;
+    }
+#weight{
+    border-color: aliceblue;
+}
+.calculater_5_h3{
+    margin-left: 8%;
+    }
+
+/* percentage calculater */
+.calculater_6
+    {
+    margin-top: 5%;
+    width: 650px;
+    height: 300px;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+
+    }
+#percentage{
+    width: 400px;
+    height: 35px;
+    margin-top: 2%;
+    margin-left: 8%;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+    }
+#value{
+    margin-left: 8%;
+    border-color: aliceblue;
+}
+#totalvalue{
+    border-color: aliceblue;
+}
+.calculater_6_h3{
+    margin-left: 8%;
+}
+ /* row_3 */
+.row_3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+/* hello full namewith age */
+.calculater_2 
+    {
+    margin-top: 5%;
+    width: 650px;
+    height: 300px;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+
+    }
+#name_age{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+
+}
+.calculater_2_h3{
+    margin-left: 8%;
+}
+.second_row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* BMR calculateter */
+.calculater_7
+    {
+    margin-top: 5%;
+    width: 650px;
+    height: 320px;
+    background-color: rgb(194, 186, 186);
+    border-color:aliceblue;
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+    }
+.calculater_7_h3{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+#BMR{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+}
+#Weight{
+    margin-left: 3%;
+    border-color: aliceblue;
+}
+#Height{
+    border-color: aliceblue;
+}
+#Age {
+    border-color: aliceblue;   
+}
+.row_4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* time calculater */
+.calculater_8
+    {
+    margin-top: 5%;
+    width: 650px;
+    height: 320px;
+    background-color: rgb(194, 186, 186);
+    border-color:aliceblue;
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+    }
+#min{
+        width: 400px;
+        height: 35px;
+        margin-top: 2%;
+        margin-left: 8%;
+        border-radius: 10px 10px;
+        background-color: rgb(172, 171, 171);
+        border-color: aliceblue;
+    }
+#hour{
+        width: 400px;
+        height: 35px;
+        margin-top: 2%;
+        margin-left: 8%;
+        border-radius: 10px 10px;
+        background-color: rgb(172, 171, 171);
+        border-color: aliceblue;
+    }
+#Day{
+        width: 400px;
+        height: 35px;
+        margin-top: 2%;
+        margin-left: 8%;
+        border-radius: 10px 10px;
+        background-color: rgb(172, 171, 171);
+        border-color: aliceblue;
+    }
+#sec{
+        margin-left: 8%;
+        border-color: aliceblue;
+}
+#Min{
+    margin-left: 8%;
+    border-color: aliceblue;
+}
+#Hour{
+    margin-left: 8%;
+    border-color: aliceblue;
+}
+.End{
+    background-color: rgb(194, 186, 186);
+    display: flex;
+    justify-content: center;
+}

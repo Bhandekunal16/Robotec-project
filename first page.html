@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- html to css link -->
+    <link rel="stylesheet" href="first page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+<!-- google font link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link   rel="icon" type="image/x-icon" href="kisspng-robotics-computer-icons-robotic-process-automation-robat-5b30f2f6516c80.5978617015299345823335.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotec</title>
+</head>
+
+<body>
+    <!-- logo -->
+    <div class="logo_title">
+        <h3 class="icon"><span class="material-symbols-outlined" style="color: black;"> developer_mode</span>Robo<span style="color: rgb(104, 104, 104);">Tec</span></h3>
+    </div>
+     
+    <!-- nevigation bar -->
+    <div class="nev-bar">
+           <ul class="nev-bar-ul">
+                <li style="font-size: 20px;"><b><a href="index.html">Home</a></b></li>
+                <li style="font-size: 20px;"><b><a href="#">Aboutus</a></b></li>
+                <li style="font-size: 20px;"><b><a href="#cotactus">Settings</a></b></li>
+            </ul>
+    </div>
+
+    <!-- searchbar -->
+       
+    <form action="" class="sec_line">
+        <input type="text" id="nav_bar_inp" placeholder="    search">
+        <button id="nav_bar_btn"><span class="material-symbols-outlined">search</span></button>
+    </form>
+
+<div class="first_row">
+ <!-- circumfarance calculater -->
+    <div class="calculater_1">
+    <h3 style="color: black;" class="calculater_1_h3"> Calculate Circumfarance. </h3>
+    <div class="button_2"><p id="circumfarance"></p></div>
+    <input type="text" id="radius"style="border-radius: 10px 10px;" placeholder="   Radius"> 
+    <button onclick="calculatecircumfaran()" style="border-radius: 10px 10px;background-color: rgb(194, 186, 186); border-color: aliceblue;">Click me</button>
+    <p id="circle"><b>Circumference of the circle or perimeter of the circle is the measurement<br>of the boundary of the circle.<br>Circumference = 2πR</b></p>
+</div>
+
+<!-- even-odd number identifier -->
+        <div class="calculater_3">
+        <h3 style="color: black;" class="calculater_3_h3"> Even & Odd No. </h3>
+        <input type="text" id="num" placeholder="  Number">
+        <button onclick="getEvenOdd()" style="border-radius: 10px 10px; background-color: rgb(194, 186, 186); border-color: aliceblue;">Click it</button>
+        <p id="even_odd"></p>
+        <p id="count"><b>Even numbers are those divisible by 2. That is if we divide a number by 2 and the <br> remainder of the division is zero, it is an even number.A number is considered odd <br>if it is not divisible by 2,that is if we divide that number by 2 and it leaves a remainder equal to 1.</b></p>
+    </div>
+</div>
+
+<div class="second_row">
+    <!-- age calculater -->
+    <div class="calculater_4">
+        <h3 style="color: black;" class="calculater_4_h3"> Calculate Age. </h3>
+        <input type="text" id="presentyear" placeholder="present year" style="border-radius: 10px 10px;" >
+        <input type="text" id="birthyear" placeholder="birth year" style="border-radius: 10px 10px;">
+        <button onclick="getmybirthday()" style="border-radius: 10px 10px; background-color: rgb(194, 186, 186); border-color: aliceblue;">Click now</button>
+        <p id="wishme"></p>
+        <p class="birthday"><b>The age of a person can be counted differently in different cultures. <br>This calculator is based on the most common age system.</b></p>
+    </div>
+
+<!-- BMI calculater -->
+    <div class="calculater_5">
+        <h3 style="color: black;" class="calculater_5_h3"> Calculate BMI. </h3>
+        <input type="text" id="height" placeholder="height" style="border-radius: 10px 10px;" >
+        <input type="text" id="weight" placeholder="weight" style="border-radius: 10px 10px;">
+        <button onclick="getmyBMI()" style="border-radius: 10px 10px; background-color: rgb(194, 186, 186); border-color: aliceblue;">Click now</button>
+        <p id="BMI"></p>
+        <p id="bmi"><b>The Body Mass Index (BMI) Calculator can be used to calculate BMI values based on their height and weight.BMI is a fairly reliable indicator of body fatness for most people.</br></p>
+    </div>
+
+</div>     
+<div class="row_3">
+    <!-- percentage calculater -->
+<div class="calculater_6">
+    <h3 style="color: black;" class="calculater_6_h3"> Calculate Percentage. </h3>
+    <input type="text" id="value" placeholder="value" style="border-radius: 10px 10px;" >
+    <input type="text" id="totalvalue" placeholder="totalvalue" style="border-radius: 10px 10px;">
+    <button onclick="getmypercentage()" style="border-radius: 10px 10px; background-color: rgb(194, 186, 186); border-color: aliceblue;">Click now</button>
+    <p id="percentage"></p>
+    <p id="percent"><b>In mathematics, a percentage is a number or ratio that represents a fraction of 100. It is one of the ways to represent a dimensionless relationship between two numbers; other methods include ratios, fractions, and decimals.</b></p>
+</div>
+
+<!-- hello full namewith age -->
+<div class="calculater_2">
+    <h3 style="color: black;" class="calculater_2_h3">Your Name & Age. </h3>
+    <input type="text" id="firstn"style="border-radius: 10px 10px;" placeholder="   First name">
+    <input type="text" id="lastn"style="border-radius: 10px 10px;" placeholder="   Last name">
+    <input type="text" id="age"style="border-radius: 10px 10px;" placeholder="  Age"> 
+    <button onclick="calculatename()" style="border-radius: 10px 10px;background-color: rgb(194, 186, 186); border-color: aliceblue;">Click here</button>
+    <p id="name_age"></p>
+</div>
+</div>
+<div class="row_4">
+    <!-- BMR CALCULATER -->
+<div class="calculater_7">
+    <h3 style="color: black;" class="calculater_7_h3">Your BMR.</h3>
+    <input type="text" id="Weight"style="border-radius: 10px 10px;" placeholder="Weight">
+    <input type="text" id="Height"style="border-radius: 10px 10px;" placeholder="Height">
+    <input type="text" id="Age"style="border-radius: 10px 10px;" placeholder="Age"> 
+    <button onclick="calculateBMR()"style="border-radius: 10px 10px;background-color: rgb(194, 186, 186); border-color: aliceblue;">Click here</button>
+    <p id="BMR"></p>
+    <p id="bmr"><b>The basal metabolic rate (BMR) is the amount of energy needed while resting in a temperate environment when the digestive system is inactive.</b></p>
+</div>
+
+<div class="calculater_8">
+    <h3 style="color: black;" class="calculater_7_h3">Time calculater.</h3>
+    <div class="sec_min">
+        <input type="text" id="sec"style="border-radius: 10px 10px;" placeholder="Sec">
+        <button onclick="calculatemin()"style="border-radius: 10px 10px;background-color: rgb(194, 186, 186); border-color: aliceblue;">Click here</button>
+        <p id="min"></p>    
+    </div>
+
+    <div class="min_hour">
+        <input type="text" id="Min"style="border-radius: 10px 10px;" placeholder="Min">
+        <button onclick="calculatehour()"style="border-radius: 10px 10px;background-color: rgb(194, 186, 186); border-color: aliceblue;">Click here</button> 
+        <p id="hour"></p>
+    </div>
+
+    <div class="hour_day">
+        <input type="text" id="Hour"style="border-radius: 10px 10px;" placeholder="Hour">
+        <button onclick="calculateday()"style="border-radius: 10px 10px;background-color: rgb(194, 186, 186); border-color: aliceblue;">Click here</button>
+        <p id="Day"></p>
+    </div>
+   </div>
+</div>   
+    <!-- calculater -->
+     
+    <!-- <div class="End">
+        <P style="color: rgb(71, 70, 70);"><span style="color: rgb(104, 104, 104); font-size: 40px; font-family: Sofia", sans-serif !important;">Robotec</span> sole focus is to provide fast, comprehensive, convenient, free online calculators in a plethora of areas. 
+        Currently,"do the math" quickly in areas such as fitness, health, math, and others, and we are still developing more. 
+        Our goal is to become the one-stop, go-to site for people who need to make quick calculations. Additionally, we believe the internet should be a source of free information. 
+        Therefore, all of our tools and services are completely free, with no registration required We coded and developed each calculator individually and put each one through strict, comprehensive testing. 
+        However, While most calculators on are designed to be universally applicable for worldwide.
+        </P>
+    </div>   -->
+<!-- html to sc link -->
+      <script src="first page.js"></script>
+
+     
+</body>
+</html> 
