@@ -179,14 +179,10 @@ li a:hover {
 #age{
     border-color: aliceblue;
 }
-
-
-
 /* BMR calculateter */
 .calculater_7
     {
     margin-top: 5%;
-    width: 650px;
     height: 320px;
     background-color: rgb(194, 186, 186);
     border-color:aliceblue;

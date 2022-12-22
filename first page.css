@@ -85,16 +85,9 @@ li a {
 li a:hover {
     background-color: transparent;
 }
-/* first_row */
-.first_row{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2%;
-}
+
 /* circumfarance calculater */
 .calculater_1 {
-    /* margin-left: 25%; */
-    width: 650px;
     height: 300px;
     background-color: rgb(194, 186, 186);
     /* background-color: rgb(59, 59, 59); */
@@ -143,7 +136,6 @@ li a:hover {
 .calculater_3
     {
     /* margin-left: 25%; */
-    width: 650px;
     height: 300px;
     background-color: rgb(194, 186, 186);
     /* background-color: rgb(59, 59, 59); */
@@ -175,15 +167,9 @@ li a:hover {
     margin-left: 2%;
 }
 
-/* age calculater */
-
-/* BMI calculater */
-
-/* percentage calculater */
 .calculater_6
     {
     margin-top: 5%;
-    width: 650px;
     height: 300px;
     background-color: rgb(194, 186, 186);
     /* background-color: rgb(59, 59, 59); */
@@ -209,29 +195,11 @@ li a:hover {
 .calculater_6_h3{
     margin-left: 8%;
 }
- /* row_3 */
-.row_3{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2%;
-}
-
-/* hello full namewith age */
-.second_row{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.row_4{
-    display: flex;
-    justify-content: space-evenly;
-}
-
+ 
 /* time calculater */
 .calculater_8
     {
     margin-top: 5%;
-    width: 650px;
     height: 320px;
     background-color: rgb(194, 186, 186);
     border-color:aliceblue;
