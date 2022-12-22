@@ -37,11 +37,11 @@ ul {
     margin-left: 75%;
     margin-top: 5px;
     font-family: "Sofia", sans-serif !important;
-  }    
+  }   
+
 li {
     float: right;
-  }
-      
+}
 li a {
     display: block;
     color: black;
