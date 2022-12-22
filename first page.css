@@ -114,17 +114,7 @@ li a:hover {
     color: rgb(80, 74, 74);
     font-weight: 200;
 }
-#bmi{
-    margin-left: 2%;
-    color: rgb(80, 74, 74);
-    font-weight: 200;
-}
 #percent{
-    margin-left: 2%;
-    color: rgb(80, 74, 74);
-    font-weight: 200;
-}
-#bmr{
     margin-left: 2%;
     color: rgb(80, 74, 74);
     font-weight: 200;
@@ -232,40 +222,6 @@ li a:hover {
     justify-content: space-evenly;
 }
 
-/* BMR calculateter */
-.calculater_7
-    {
-    margin-top: 5%;
-    width: 650px;
-    height: 320px;
-    background-color: rgb(194, 186, 186);
-    border-color:aliceblue;
-    /* background-color: rgb(59, 59, 59); */
-    border-radius: 8px 8px;
-    }
-.calculater_7_h3{
-    margin-left: 8%;
-    margin-top: 5%;
-}
-#BMR{
-    margin-top: 2%;
-    margin-left: 2%;
-    width: 400px;
-    height: 30px;
-    border-radius: 10px 10px;
-    background-color: rgb(172, 171, 171);
-    border-color: aliceblue;
-}
-#Weight{
-    margin-left: 3%;
-    border-color: aliceblue;
-}
-#Height{
-    border-color: aliceblue;
-}
-#Age {
-    border-color: aliceblue;   
-}
 .row_4{
     display: flex;
     justify-content: space-evenly;
