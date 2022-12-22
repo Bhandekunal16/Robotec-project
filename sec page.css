@@ -88,8 +88,6 @@ li a:hover {
     {
     margin-top: 5%;
     height: 300px;
-    display: flex;
-    justify-content: center;
     background-color: rgb(194, 186, 186);
     /* background-color: rgb(59, 59, 59); */
     border-radius: 8px 8px;
@@ -114,39 +112,9 @@ li a:hover {
 .calculater_5_h3{
     margin-left: 8%;
     }
-#bmi{
+    #bmi{
         margin-left: 2%;
         color: rgb(80, 74, 74);
         font-weight: 200;
     }
     
-/* age calculater */
-.calculater_4
-{
-    margin-top: 5%;
-    width: 650px;
-    height: 300px;
-    background-color: rgb(194, 186, 186);
-    /* background-color: rgb(59, 59, 59); */
-    border-radius: 8px 8px;
-
-}
-.calculater_4_h3{
-    margin-left: 8%;
-}
-#wishme{
-    width: 400px;
-    height: 35px;
-    margin-top: 2%;
-    margin-left: 8%;
-    border-radius: 10px 10px;
-    background-color: rgb(172, 171, 171);
-    border-color: aliceblue;
-}
-#presentyear{
-    margin-left: 8%;
-    border-color: aliceblue;
-}
-#birthyear{
-    border-color: aliceblue;
-}
