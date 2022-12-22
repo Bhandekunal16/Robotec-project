@@ -87,8 +87,10 @@ li a:hover {
 .calculater_5
     {
     margin-top: 5%;
-    width: 650px;
+    width: 800px;
     height: 300px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(194, 186, 186);
     /* background-color: rgb(59, 59, 59); */
     border-radius: 8px 8px;
