@@ -68,7 +68,7 @@ ul {
     font-family: "Sofia", sans-serif !important;
   }    
 li {
-    float: left;
+    float: center;
   }
       
 li a {

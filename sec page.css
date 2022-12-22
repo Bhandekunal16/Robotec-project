@@ -39,7 +39,7 @@ ul {
     font-family: "Sofia", sans-serif !important;
   }    
 li {
-    float: left;
+    float: center;
   }
       
 li a {
@@ -53,4 +53,31 @@ li a {
   
 li a:hover {
     background-color: transparent;
+}
+
+.sec_line{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding-top: 3%;
+    border-radius: 8px 8px;
+}
+#nav_bar_inp{
+    width: 850px;
+    height: 45px;
+    border-radius: 50px 50px;
+    border-color: aliceblue;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#nav_bar_btn{
+    height: 50px;   
+    width: 45px;
+    border-radius: 100px 100px;
+    margin-left: 2%;
+    border-color: aliceblue;
 }
