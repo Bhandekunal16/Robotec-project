@@ -146,4 +146,37 @@ li a:hover {
     #birthyear{
         border-color: aliceblue;
     }
-    
+
+.calculater_2 
+    {
+    margin-top: 5%;
+    height: 300px;
+    background-color: rgb(194, 186, 186);
+    /* background-color: rgb(59, 59, 59); */
+    border-radius: 8px 8px;
+
+    }
+#name_age{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px 10px;
+    background-color: rgb(172, 171, 171);
+    border-color: aliceblue;
+
+}
+.calculater_2_h3{
+    margin-left: 8%;
+}
+#firstn{
+    margin-left: 3%;
+    border-color: aliceblue;
+}
+#lastn{
+    border-color: aliceblue;
+}
+#age{
+    border-color: aliceblue;
+}
+
