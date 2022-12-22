@@ -63,7 +63,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-    margin-left: 75%;
+    display: flex;
+    justify-content: end;
     margin-top: 5px;
     font-family: "Sofia", sans-serif !important;
   }    
