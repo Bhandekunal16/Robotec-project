@@ -40,7 +40,8 @@ ul {
   }   
 
 li {
-    float: right;
+    display: flex;
+    justify-content: center;
 }
 li a {
     display: block;
