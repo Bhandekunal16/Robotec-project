@@ -24,6 +24,12 @@
       {
         "nested-interactive": "off"
       }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
     ]
   }
 }
