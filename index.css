@@ -3,7 +3,7 @@ body{
     max-height: 1000px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 393px ) {
   .dashborad_left {width: 20%; height: 20px;}
   .dashborad_right {width: 80%; height: 20px;}
 }
