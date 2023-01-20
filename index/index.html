@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link   rel="icon"type="image/x-icon" href="kisspng-robotics-computer-icons-robotic-process-automation-robat-5b30f2f6516c80.5978617015299345823335.png">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotec</title>
+</head>
+<body>
+    <div id="main_part">
+        <div class="dashborad_right">
+            <div class="dashborad_logo_title">
+                <h3 class="dashborad_icon"><span class="material-symbols-outlined" style="color: black;"> developer_mode</span> Robo<span style="color: rgb(70, 68, 68);">Tec</span></h3>
+            </div>
+            
+        
+            <div class="dashborad_nev-bar">
+                
+                <form action="" class="dashborad_sec_line">
+                    <input type="text" id="dashborad_nav_bar_inp" placeholder="    search">
+                    <button id="dashborad_nav_bar_btn"><span class="material-symbols-outlined">search</span></button>
+                </form>
+
+                <ul class="dashborad_nev-bar-ul">
+                    <li style="font-size: 20px;" class="button1"><b><a href="first page.html"><span class="material-symbols-outlined" style="color: black;"> menu </span>   menu</a></b></li>
+                    <li style="font-size: 20px;" class="button1"><b><a href="sec page.html"><span class="material-symbols-outlined" style="color: black;"> home </span>Other calculater</a></b></li>
+                    <li style="font-size: 20px;" class="button1"><b><a href="otp genrater.html"><span class="material-symbols-outlined" style="color: black;"> account_box</span> Random no genrater </a></b></li>
+                    <li style="font-size: 20px;" class="button1"><b><a href="aboutus.html"> <span class="material-symbols-outlined" style="color: black;"> account_box </span>   Aboutus</a></b></li>
+                    <li style="font-size: 20px;" class="button1"><b><a href="clock.html"> <span class="material-symbols-outlined" style="color: black;"> account_box </span>clock</a></b></li>
+                   </ul>
+            </div> 
+        </div>
+        <div class="dashborad_left">
+         <h1 class="dashborad_left_h1">  welcome...</h1>
+
+         <div class="End">
+            <P style="color: rgb(129, 129, 129);"><span style="color: rgb(104, 104, 104); font-size: 40px; font-family: Sofia", sans-serif !important;">Robotec</span> sole focus is to provide fast, comprehensive, convenient, free online calculators in a plethora of areas. 
+            Currently,"do the math" quickly in areas such as fitness, health, math, and others, and we are still developing more. 
+            Our goal is to become the one-stop, go-to site for people who need to make quick calculations. Additionally, we believe the internet should be a source of free information. 
+            Therefore, all of our tools and services are completely free, with no registration required We coded and developed each calculator individually and put each one through strict, comprehensive testing. 
+            However, While most calculators on are designed to be universally applicable for worldwide.
+            </P>
+        </div>
+    
+         <div id="calculater-UI">
+            <td colspan="3"><input type='text' id='result' class ='screen' style="text-align: right;"></td>
+            <div class="keys">
+            <input type="button" value="7" class="button" onClick="display('7')"></input>
+            <input type="button" value="8" class="button " onClick="display('8')"></input>
+            <input type="button" value="9" class="button" onClick="display('9')"></input>
+            <input type="button" value="/" class="operator" onClick="display('/')"></input>
+            <br>
+            <input type="button" value="4" class="button" onClick="display('4')"></input>
+            <input type="button" value="5" class="button" onClick="display('5')"></input>
+            <input type="button" value="6" class="button" onClick="display('6')"></input>
+            <input type="button" value="*" class="operator" onClick="display('*')"></input>
+            <br>
+            <input type="button" value="1" class="button" onClick="display('1')"></input>
+            <input type="button" value="2" class="button" onClick="display('2')"></input>
+            <input type="button" value="3" class="button" onClick="display('3')"></input>
+            <input type="button" value="-" class="operator" onClick="display('-')"></input>
+            <br>
+            <input type="button" value="0" class="button" onClick="display('0')"></input>
+            <input type="button" value="." class="button" onClick="display('.')"></input>
+            <input type="button" value= "=" class="button equal-sign" onClick="solve()"></input>
+            <input type="button" value="+" class="operator" onClick="display('+')"></input>
+            <br>
+        </div>
+            <p id="demo"></p>     
+    </div>
+</div>
+    <script src="index.js"></script> 
+    </body>
+</html>
