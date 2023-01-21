@@ -112,6 +112,7 @@ li a:hover {
 }
 
 #hour {
+    background: green;
 	width: 1.8%;
 	height: 25%;
 	top: 25%;
@@ -120,6 +121,7 @@ li a:hover {
 }
 
 #minute {
+    background-color: yellow;
 	width: 1.6%;
 	height: 30%;
 	top: 19%;
