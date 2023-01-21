@@ -97,6 +97,7 @@ li a:hover {
     width: 500px;
     border-radius: 50% 50%;
     background-color: black;
+    border-color: aliceblue;
     justify-items: center;
     margin-top: 5%;
 }
@@ -140,6 +141,7 @@ li a:hover {
     margin: 20px;
     text-align: center;
     border: 2px solid black;
-    color: red;
+    border-color: aqua;
+    color: aqua;
     border-radius: 20px;
   }
