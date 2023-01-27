@@ -84,3 +84,26 @@ li a {
 li a:hover {
     background-color: transparent;
 }
+.calculate-marks{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.calculate-marks input{
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+}
+.calculate-percentage{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.calculate-percentage input{
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+}
+.text{
+    text-align: center;
+}

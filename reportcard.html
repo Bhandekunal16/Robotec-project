@@ -32,8 +32,25 @@
         <input type="text" id="nav_bar_inp" placeholder="    search">
         <button id="nav_bar_btn"><span class="material-symbols-outlined">search</span></button>
     </form>
+    <h4 class="text">calculate all subject marks here</h4>
+    <div class="calculate-marks">
 
+        <input type="text" id="sec">
+        <input type="text" id="three">
+        <input type="text" id="four">
+        <input type="text" id="fifth">
+        <input type="text" id="six">
+        <button onclick="getmarks()" style="border-radius: 10px 10px; background-color: rgb(194, 186, 186); border-color: aliceblue;">Click it</button>
+        <p id="screen"></p>
+    </div>
+    <h4 class="text">calculate percentage here</h4>
 
+    <div class="calculate-percentage">
+        <input type="text" id="totalmarks">
+        <button onclick="getpercentage()" style="border-radius: 10px 10px; background-color: rgb(194, 186, 186); border-color: aliceblue;">Click it</button>
+        <p id="screen2"></p>
+
+    </div>
    
     <script src="reportcard.js"></script>
 </body>
