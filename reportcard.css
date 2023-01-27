@@ -93,6 +93,8 @@ li a:hover {
     height: 20px;
     width: 100px;
     margin-left: 10px;
+    border-radius: 8px 8px;
+    border-color: aquamarine;
 }
 .calculate-percentage{
     margin-top: 5%;
@@ -103,7 +105,36 @@ li a:hover {
     height: 20px;
     width: 100px;
     margin-left: 10px;
+    border-radius: 8px 8px;
+    border-color: aquamarine;
+}
+.calculate-percentage button{
+    margin-left: 1% ;
+    border-color: aliceblue;
+}
+.calculate-marks button{
+    margin-left: 1% ;
+    border-color: aliceblue;
 }
 .text{
     text-align: center;
+}
+.screen { height: 30px;
+    width: 100px;
+    background-color: rgb(172, 171, 171);
+    margin-left: 50%;
+    border-radius: 8px 8px;
+    border-color: aliceblue;
+}
+.UI{
+    margin-top: 2%;
+    background-color: rgb(80, 74, 74);
+    color: white;
+    border-radius: 10px 10px;
+    padding: 2px 0px 0px 2px;
+    width: 800px;
+    height: 500px;
+    margin-left: 20%;
+    border-color: aquamarine;
+    
 }

@@ -10,7 +10,7 @@ function getmarks() {
 }
 
 let totalm=document.getElementById("totalmarks")
-let screen2=document.getElementById("screen2")
+let screen2=document.getElementById("screen")
  function getpercentage() {
     return screen2.innerHTML= `${totalm.value}`/parseInt(600)*100
  }
