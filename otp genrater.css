@@ -1,116 +1,113 @@
-body{
-    background-color: rgb(172, 171, 171);
-    /* background-color: rgb(87, 85, 85); */
-    /* font-family:'Ubuntu', sans-serif !important; */
-    font-family:'inherit', sans-serif !important;
-    /* font-family: "Sofia", sans-serif !important; */
+body {
+  background-color: rgb(172, 171, 171);
+  /* background-color: rgb(87, 85, 85); */
+  /* font-family:'Ubuntu', sans-serif !important; */
+  font-family: "inherit", sans-serif !important;
+  /* font-family: "Sofia", sans-serif !important; */
 }
 
 /* title  */
-.sec_line{
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-    padding-top: 3%;
-    border-radius: 8px 8px;
+.sec_line {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding-top: 3%;
+  border-radius: 8px 8px;
 }
-#nav_bar_inp{
-    width: 850px;
-    height: 45px;
-    border-radius: 50px 50px;
-    border-color: aliceblue;
+#nav_bar_inp {
+  width: 850px;
+  height: 45px;
+  border-radius: 50px 50px;
+  border-color: aliceblue;
 }
-.icon{
-    display: flex;
-    justify-content: space-evenly;
-
+.icon {
+  display: flex;
+  justify-content: space-evenly;
 }
-#nav_bar_btn{
-    height: 50px;   
-    width: 45px;
-    border-radius: 100px 100px;
-    margin-left: 2%;
-    border-color: aliceblue;
-}
-
-.title{
-    color: rgb(80, 74, 74);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#nav_bar_btn {
+  height: 50px;
+  width: 45px;
+  border-radius: 100px 100px;
+  margin-left: 2%;
+  border-color: aliceblue;
 }
 
-.logo_title{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: -2%;
-    margin-left: -85%;
-    font-family: "Sofia", sans-serif !important;
-    font-size: 30px;
+.title {
+  color: rgb(80, 74, 74);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.logo_title {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -2%;
+  margin-left: -85%;
+  font-family: "Sofia", sans-serif !important;
+  font-size: 30px;
 }
 /* nev-bar */
-.nev-bar{
-    border-color: black;
-    background-color: rgb(194, 186, 186);
-    /* background-color: rgb(59, 59, 59); */
-    border-radius: 10px 10px 10px 10px;
-    margin-top: -3%;
+.nev-bar {
+  border-color: black;
+  background-color: rgb(194, 186, 186);
+  /* background-color: rgb(59, 59, 59); */
+  border-radius: 10px 10px 10px 10px;
+  margin-top: -3%;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-    display: flex;
-    justify-content: end;
-    margin-top: 5px;
-    font-family: "Sofia", sans-serif !important;
-  }    
-li{
-    display: flex;
-    justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+  font-family: "Sofia", sans-serif !important;
 }
-      
-li a {
-    display: block;
-    color: black;
-    /* color: aliceblue; */
-    text-align: center;
-    padding: 12px 14px;
-    text-decoration: none;
-  }
-  
-li a:hover {
-    background-color: transparent;
+li {
+  display: flex;
+  justify-content: center;
 }
-.otp-gen{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    background-color: rgb(194, 186, 186);
-    border-radius: 10px 10px;
-    border-color: aliceblue;
-    height: 300px;
 
+li a {
+  display: block;
+  color: black;
+  /* color: aliceblue; */
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
 }
-#value{
-    height: 40px;
-    width: 200px;
-    border-radius: 10px 10px;
-    border-color: aliceblue;
+
+li a:hover {
+  background-color: transparent;
 }
-.ui{
-    margin-top: 5%;
+.otp-gen {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  background-color: rgb(194, 186, 186);
+  border-radius: 10px 10px;
+  border-color: aliceblue;
+  height: 300px;
 }
-.ui button{
-    height: 40px;
-    width: 200px;
+#value {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px 10px;
+  border-color: aliceblue;
 }
-#screen{
-    background-color: rgb(172, 171, 171);
-    border-color: aliceblue;
-    height: 40px;
-    width: 200px;
-    border-radius: 10px 10px;
+.ui {
+  margin-top: 5%;
+}
+.ui button {
+  height: 40px;
+  width: 200px;
+}
+#screen {
+  background-color: rgb(172, 171, 171);
+  border-color: aliceblue;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px 10px;
 }
