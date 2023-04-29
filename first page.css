@@ -1,24 +1,16 @@
 /* main body */
 body {
   background-color: rgb(172, 171, 171);
-  /* background-color: rgb(87, 85, 85); */
-  /* font-family:'Ubuntu', sans-serif !important; */
+ 
   font-family: "inherit", sans-serif !important;
-  /* font-family: "Sofia", sans-serif !important; */
+
 }
 
 /* title  */
-.sec_line {
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  padding-top: 3%;
-  border-radius: 8px 8px;
-}
+
 #nav_bar_inp {
-  width: 850px;
-  height: 45px;
+  width: 100%;
+  height: 80%;
   border-radius: 50px 50px;
   border-color: aliceblue;
 }
@@ -27,10 +19,9 @@ body {
   justify-content: space-evenly;
 }
 #nav_bar_btn {
-  height: 50px;
-  width: 45px;
+  height: 100%;
+  width: 10%;
   border-radius: 100px 100px;
-  margin-left: 2%;
   border-color: aliceblue;
 }
 
@@ -42,18 +33,15 @@ body {
 .logo_title {
   display: flex;
   justify-content: space-evenly;
-  margin-top: -2%;
-  margin-left: -85%;
+  float: left;
   font-family: "Sofia", sans-serif !important;
-  font-size: 30px;
 }
+
 /* nev-bar */
 .nev-bar {
   border-color: black;
   background-color: rgb(194, 186, 186);
-  /* background-color: rgb(59, 59, 59); */
   border-radius: 10px 10px 10px 10px;
-  margin-top: -3%;
 }
 ul {
   list-style-type: none;
@@ -63,18 +51,12 @@ ul {
   background-color: transparent;
   display: flex;
   justify-content: end;
-  margin-top: 5px;
   font-family: "Sofia", sans-serif !important;
-}
-li {
-  display: flex;
-  justify-content: center;
 }
 
 li a {
   display: block;
   color: black;
-  /* color: aliceblue; */
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
@@ -86,45 +68,46 @@ li a:hover {
 
 /* circumfarance calculater */
 .calculater_1 {
-  height: 300px;
+  height: 100%;
   background-color: rgb(194, 186, 186);
-  /* background-color: rgb(59, 59, 59); */
   border-radius: 8px 8px;
 }
 #circle {
-  margin-left: 2%;
   color: rgb(80, 74, 74);
+ text-align: center;
 }
 #count {
-  margin-left: 2%;
+ text-align: center;
   color: rgb(80, 74, 74);
-  font-weight: 200;
+  font-weight: 100%;
 }
 .birthday {
-  margin-left: 2%;
+  text-align: center;
   color: rgb(80, 74, 74);
-  font-weight: 200;
+  font-weight: 100%;
 }
 #percent {
-  margin-left: 2%;
   color: rgb(80, 74, 74);
-  font-weight: 200;
+  font-weight: 100%;
 }
 .button_2 {
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-left: 7%;
+}
+.update{
+  display: flex;
+  justify-content: center;
 }
 #radius {
-  margin-left: 8%;
+  text-align: center;
   border-color: aliceblue;
 }
 .calculater_1_h3 {
-  margin-left: 8%;
+  text-align: center;
 }
 #circumfarance {
-  width: 400px;
-  height: 30px;
+  width: 30%;
+  height: 100%;
   border-radius: 10px 10px;
   background-color: rgb(172, 171, 171);
   border-color: aliceblue;
@@ -132,108 +115,109 @@ li a:hover {
 
 /* even-odd number identifier */
 .calculater_3 {
-  /* margin-left: 25%; */
-  height: 300px;
+
+  height: 100%;
   background-color: rgb(194, 186, 186);
-  /* background-color: rgb(59, 59, 59); */
+  text-align: center;
   border-radius: 8px 8px;
 }
 #even_odd {
-  width: 400px;
-  height: 35px;
+  width: 10%;
+  height: 100%;
   margin-top: 2%;
-  margin-left: 8%;
+  text-align: center;
   border-radius: 10px 10px;
   background-color: rgb(172, 171, 171);
   border-color: aliceblue;
 }
 #num {
-  width: 100px;
+  width: 10%;
   margin-bottom: 2px;
   border-radius: 10px 10px;
-  margin-left: 8%;
+  text-align: center;
   border-color: aliceblue;
 }
 .calculater_3_h3 {
-  margin-left: 8%;
+  text-align: center;
 }
 
 .material-symbols-outlined {
-  margin-left: 2%;
+  text-align: center;
 }
 
 .calculater_6 {
-  margin-top: 5%;
-  height: 300px;
+  margin-top: 2%;
+  height: 100%;
   background-color: rgb(194, 186, 186);
-  /* background-color: rgb(59, 59, 59); */
   border-radius: 8px 8px;
+  text-align: center;
 }
 #percentage {
-  width: 400px;
-  height: 35px;
-  margin-top: 2%;
-  margin-left: 8%;
+  width: 100%;
+  height: 10%;
+  text-align: center;
   border-radius: 10px 10px;
   background-color: rgb(172, 171, 171);
   border-color: aliceblue;
 }
 #value {
-  margin-left: 8%;
+  text-align: center;
   border-color: aliceblue;
 }
 #totalvalue {
   border-color: aliceblue;
 }
 .calculater_6_h3 {
-  margin-left: 8%;
+  text-align: center;
 }
 
 /* time calculater */
 .calculater_8 {
-  margin-top: 5%;
-  height: 320px;
+  margin-top: 1%;
+  height: 100%;
   background-color: rgb(194, 186, 186);
   border-color: aliceblue;
   /* background-color: rgb(59, 59, 59); */
   border-radius: 8px 8px;
+  text-align: center;
+  padding-bottom: 2%;
 }
 #min {
-  width: 400px;
-  height: 35px;
+  width: 40%;
+  height: 100%;
   margin-top: 2%;
-  margin-left: 8%;
   border-radius: 10px 10px;
   background-color: rgb(172, 171, 171);
   border-color: aliceblue;
+  text-align: center;
 }
 #hour {
-  width: 400px;
-  height: 35px;
+  width: 40%;
+  height: 100%;
   margin-top: 2%;
-  margin-left: 8%;
   border-radius: 10px 10px;
   background-color: rgb(172, 171, 171);
   border-color: aliceblue;
+  text-align: center;
 }
 #Day {
-  width: 400px;
-  height: 35px;
+  width: 40%;
+  height: 100%;
   margin-top: 2%;
-  margin-left: 8%;
   border-radius: 10px 10px;
   background-color: rgb(172, 171, 171);
   border-color: aliceblue;
+  text-align: center;
 }
 #sec {
-  margin-left: 8%;
+  text-align: center;
   border-color: aliceblue;
 }
 #Min {
-  margin-left: 8%;
+  text-align: center;
   border-color: aliceblue;
 }
 #Hour {
-  margin-left: 8%;
+  text-align: center;
   border-color: aliceblue;
 }
