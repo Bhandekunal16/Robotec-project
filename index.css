@@ -3,7 +3,7 @@ body {
   max-height: 100%;
 }
 
-/* @media screen and (max-width: 393px) {
+@media screen and (max-width: 393px) {
   .dashborad_left {
     width: 20%;
     height: 100%;
@@ -12,7 +12,7 @@ body {
     width: 80%;
     height: 100%;
   }
-} */
+}
 .dashborad_logo_title {
   font-family: "Sofia", sans-serif !important;
   font-size: 100%;
@@ -31,7 +31,7 @@ ul {
 }
 
 li a {
-  color: black;
+  color: white;
   padding-top: 5%;
   padding-bottom: 5%;
   text-decoration: none;
@@ -69,19 +69,16 @@ li a:hover {
 }
 .dashborad_right {
   height: 100%;
-  width: 20%;
-  /* background-color: rgb(122, 117, 117); */
-  background-color: grey;
-  margin-left: -0.5%;
+  width: 100%;
+  /* background-color: grey; */
+  
   border-radius: 10px 10px;
   border-color: aliceblue;
 }
 .dashborad_left {
   height: 100%;
-  width: 80%;
-  /* margin-left: 1%; */
-  margin-top: -1%;
-  color: black;
+  width: 100%;
+  color: white;
 }
 #main_part {
   display: flex;
@@ -90,18 +87,16 @@ li a:hover {
 .dashborad_left_h1 {
   background-color: grey;
   border-radius: 10px 10px;
-  border-color: white;
-  margin-left: 1%;
+  border-color: black;
 }
 .End {
   height:100%;
   width: 100%;
   margin-left: 1%;
-  margin-top: 5%;
 }
 #explore {
   background-color: grey;
-  color: black;
+  color: white;
   height: 100%;
   width: 100%;
   border-radius: 10px 10px;
@@ -109,7 +104,6 @@ li a:hover {
 }
 
 #demo {
-  margin-top: 20%;
   width: 100%;
   height: 100%;
   margin-right: 5%;
