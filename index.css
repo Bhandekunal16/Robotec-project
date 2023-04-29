@@ -27,7 +27,7 @@ ul {
   padding-bottom: 10%;
   background-color: transparent;
   height: auto;
-  width: auto;
+  width: fit-content;
 }
 
 li a {
@@ -46,11 +46,13 @@ li a:hover {
   margin-top: 3%;
   font-family: "Sofia", sans-serif !important;
   /* color: black; */
+  height: 100%;
+  width: 100%;
   color: white;
   margin-left: 5%;
 }
 #dashborad_nav_bar_inp {
-  width: 70%;
+  width: 90%;
   height: 100%;
   margin-left: 5%;
   border-radius: 50px 50px;
