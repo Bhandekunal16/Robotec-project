@@ -1,6 +1,6 @@
 body {
   background-color: rgb(54, 51, 51);
-  max-height: 1000px;
+  max-height: 100%;
 }
 
 /* @media screen and (max-width: 393px) {
@@ -15,31 +15,28 @@ body {
 } */
 .dashborad_logo_title {
   font-family: "Sofia", sans-serif !important;
-  font-size: 30px;
+  font-size: 100%;
   color: black;
   /* color: white; */
 }
-.dashborad_nev-bar {
-  border-color: black;
-}
-.dashborad_sec_line {
-  display: flex;
-  justify-content: space-evenly;
-}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   padding-bottom: 10%;
   background-color: transparent;
+  height: auto;
+  width: auto;
 }
 
 li a {
   color: black;
-  /* color: white; */
   padding-top: 5%;
   padding-bottom: 5%;
   text-decoration: none;
+  height: auto;
+  width: auto;
 }
 
 li a:hover {
@@ -106,8 +103,7 @@ li a:hover {
   height: 100%;
   width: 100%;
   border-radius: 10px 10px;
-  margin-left: 40%;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 
 #demo {
